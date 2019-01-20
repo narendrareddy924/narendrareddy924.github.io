@@ -1,0 +1,227 @@
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background-color: #3F5F5F;
+
+}
+
+header{
+
+    width: 100%;
+
+    text-align: center;
+
+    height: 10vh;
+
+    background: linear-gradient(to bottom right, darkslategray, gray);
+
+    margin-top: 0;
+
+    padding-top: 1px;
+
+    color: lightgray;
+
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.container{
+
+    background: url("img/intro-bg.jpg");
+
+    width: 85%;
+
+    margin: auto;
+
+    margin-top: 10px;
+
+    padding-top: 20px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    color: lightgray;
+
+    font-size: larger;
+
+}
+
+fieldset{
+
+    border:5px solid darkseagreen;
+
+    border-radius: 10px;
+
+    border-top-right-radius: 60px;
+
+    border-bottom-left-radius: 40px;
+
+}
+
+.fieldset1{
+
+    margin-top: 10px;
+
+}
+
+legend{
+
+    margin-left: 20%;
+
+    background-color: darkseagreen;
+
+    padding: 10px 20px 10px 20px;
+
+    color: black;
+
+    border-radius: 5px 25px 5px 25px;
+
+}
+
+table{
+
+    width: 100%;
+
+    font-size: x-large;
+
+}
+
+td{
+
+    /*margin: 25px 0px 25px 0px;*/
+
+    height: 30px;
+
+}
+
+.label{
+
+    background: linear-gradient(to left, darkslategray, transparent);
+
+    /*margin: 35px 0px 35px 0px;*/
+
+    padding: 10px 40px 10px 10px;
+
+    height: 30px;
+
+    border-radius: 30px;
+
+}
+
+input[type=text]{
+
+    color: white;
+
+    font-size: x-large;
+
+    height: 40px;
+
+    width: 280px;
+
+    margin: 10px 5px 10px 5px;
+
+    border-radius: 20px;
+
+    border:none;
+
+    background: linear-gradient(to left, lightgray, transparent);
+
+    /*margin-top: 10px;*/
+
+    /*margin-bottom: 10px;*/
+
+}
+
+input[type=date]{
+
+    height: 40px;
+
+    width: 280px;
+
+    margin: 10px 5px 10px 5px;
+
+    border-radius: 20px;
+
+    border:none;
+
+    background: linear-gradient(to left, lightgray, transparent);
+
+    text-align: right;
+
+    /*margin-top: 10px;*/
+
+    /*margin-bottom: 10px;*/
+
+}
+
+textarea{
+
+    color: white;
+
+    font-size: x-large;
+
+    height: 40px;
+
+    width: 280px;
+
+    margin: 10px 5px 10px 5px;
+
+    border-radius: 20px;
+
+    border:none;
+
+    background: linear-gradient(to left, lightgray, transparent);
+
+}
+
+#nation{
+
+    height: 40px;
+
+    width: 280px;
+
+    margin: 10px 5px 10px 5px;
+
+    border-radius: 20px;
+
+    border:none;
+
+    background: linear-gradient(to left, lightgray, transparent);
+
+}
+
+.btn{
+
+    height : 40px;
+
+    width :150px;
+
+    margin: 10px 5px 10px 5px;
+
+    font-size: larger;
+
+    background-color: lightgray;
+
+    color: darkslategray;
+
+    text-shadow: 1px 1px 5px white;
+
+    font-family: "Times New Roman";
+
+    border-radius: 15px;
+
+    border:none;
+
+}
+
+.button{
+
+    width: 30%;
+
+    margin: auto;
+
+}
