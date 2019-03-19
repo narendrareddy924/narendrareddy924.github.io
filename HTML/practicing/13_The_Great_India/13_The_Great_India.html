@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            font-family: "Comic Sans MS";
+            margin: 0;
+        }
+        table{
+            width: 100%;
+        }
+        nav{
+            background-color: orange;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            display: block;
+            font-size: 20px;
+            font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color: lightgreen;
+            color: blue;
+            border-radius: 15px;
+        }
+        nav ul li a.active{
+            background-color: blue;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            background-color: pink;
+            margin: 2px 400px 5px 400px;
+            padding: 8px;
+            border-radius: 28px;
+        }
+        #center{
+            text-align: center;
+            font-style: italic;
+            color: blue;
+            text-shadow: 0 0 8px black;
+        }
+        img{
+            border: 3px solid black;
+            padding: 3px;
+            box-shadow: 0 0 15px red;
+        }
+        fieldset{
+            border: 5px solid red;
+            margin: 25px 2px;
+        }
+        legend{
+            border: 5px dashed deeppink;
+            padding: 14px;
+            background-color: lightskyblue;
+            color: white;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            font-size: 20px;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- The Great India Website -->
+<nav>
+    <ul>
+        <li>
+            <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+            <a href="#beforeNafter">Before & After</a>
+        </li>
+        <li>
+            <a href="#freedomFighters">Freedom Fighters</a>
+        </li>
+        <li>
+            <a href="#politicians">Politiciaans</a>
+        </li>
+        <li>
+            <a href="#business">Business Leaders</a>
+        </li>
+        <li>
+            <a href="#sports">Sports Leaders</a>
+        </li>
+    </ul>
+</nav>
+<div id="home">
+    <h1>
+        <span style="color: orange">THE</span>
+        <span style="color: whitesmoke">GREAT</span>
+        <span style="color: green">INDIA</span>
+    </h1>
+    <fieldset>
+        <legend>Our India</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea placeat sed veniam? Aliquid at expedita iure soluta voluptatum? Architecto cupiditate facere voluptate? Minima nesciunt quo reiciendis sequi ut. A animi aut blanditiis cumque dolorum, error excepturi harum id ipsam itaque minus obcaecati possimus praesentium provident quae reprehenderit similique sint totam veniam voluptatem! Harum, itaque!</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/india_flag.gif" height="300" width="520">
+                </td>
+                <td>
+                    <img src="img/india_map.gif" height="300" width="520">
+                </td>
+            </tr>
+            <tr>
+                <td id="center">India Flag</td>
+                <td id="center">India Map</td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+<div id="beforeNafter">
+    <fieldset>
+        <legend>INDIA Before & After</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa eaque iste magnam minus modi odio omnis placeat porro provident quas quibusdam reiciendis reprehenderit, sequi sint. Amet aperiam deserunt ducimus explicabo fuga impedit modi molestiae odio possimus provident quas quasi, recusandae saepe similique unde velit?</p>
+        <table>
+            <tr>
+                <td>
+                    <iframe width="760" height="315" src="https://www.youtube.com/embed/-ZNyL99G1us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="760" height="315" src="https://www.youtube.com/embed/-ZNyL99G1us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+
+<div id="freedomFighters">
+    <fieldset>
+        <legend>Indian Freedom Fighters</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi aut dolor dolore dolorum nesciunt quaerat quidem ratione! Beatae delectus dolor doloremque ducimus labore maxime praesentium quos rem repudiandae, similique.</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/mahatma.jpg" width="350" height="400">
+                </td>
+                <td>
+                    <img src="img/alluri.jpg" width="350" height="400">
+                </td>
+                <td>
+                    <img src="img/subhash_chandra_bose.jpg" width="350" height="400">
+                </td>
+                <td>
+                    <img src="img/Bhagat.jpg" width="350" height="400">
+                </td>
+            </tr>
+            <tr>
+                <td id="center">Mahatma Gandhi</td>
+                <td id="center">Alluri Sita Rama Raju</td>
+                <td id="center">Subhas Chandra Bose</td>
+                <td id="center">Bhagath singh</td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+<div id="politicians">
+    <fieldset>
+        <legend>Indian Political Leaders</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, error eveniet incidunt molestias obcaecati sequi! Ab accusamus ex magnam minima modi molestiae, vel. Accusamus adipisci animi, atque aut consectetur explicabo illum laboriosam laborum molestias non quia sed temporibus voluptates? Alias ea ex fugiat molestiae odio officia quaerat quibusdam sunt temporibus!</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/lal_bahadur.jpg" width="450" height="400">
+                </td>
+                <td>
+                    <img src="img/abdul_kalam.jpg" width="450" height="400">
+                </td>
+                <td>
+                    <img src="img/vajpai.jpg" width="450" height="400">
+                </td>
+            </tr>
+        </table>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem ea modi? Ab culpa deserunt enim esse eveniet facilis fugit iure iusto, laboriosam molestias nemo nobis non nostrum odit officiis quae quaerat quidem recusandae reprehenderit sequi sit tempora temporibus veniam voluptas voluptatibus. Laudantium, sunt suscipit.</p>
+    </fieldset>
+</div>
+<div id="business">
+    <fieldset>
+        <legend>Indian Business Leaders</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae commodi error esse expedita explicabo, incidunt ipsum iste iusto labore magnam maxime sapiente unde. Atque aut beatae, consectetur cum ea et excepturi fuga fugit iste maxime nemo non nulla perferendis quis totam! Est quia, quod.</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/ratan_tata.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/azim_Prem_ji.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/narayana_murthy.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/dhirubhai.jpg" height="450" width="350">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+<div id="sports">
+    <fieldset>
+        <legend>Indian Sports Leader</legend>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, commodi consequatur delectus ea, eius ipsam ipsum nemo nesciunt nihil officia quis, quo sapiente? Adipisci beatae et eum eveniet facere molestiae nobis numquam quo repudiandae.</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="img/saina.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/sachin.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/pv_Sindhu.jpg" height="450" width="350">
+                </td>
+                <td>
+                    <img src="img/gopichand.jpg" height="450" width="350">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+<div id="footer">
+        <h2 style="text-align: center">Copyright &copy; 2018, The Great India</h2>
+</div>
+</body>
+
+</html>

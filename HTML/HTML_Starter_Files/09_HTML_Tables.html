@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td{
+            border: 3px solid blue;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        table{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h2> Simple Table </h2>
+        <table>
+            <thead style="background-color: lightgray;color: red;">
+                 <tr>
+                     <th>s.no</th>
+                     <th>name</th>
+                     <th>number</th>
+                 </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                     <td>1</td>
+                     <td>narendra</td>
+                     <td>f9</td>
+                 </tr>
+                 <tr>
+                     <td>2</td>
+                     <td>srikanth</td>
+                     <td>g3</td>
+                 </tr>
+                 <tr>
+                     <td>3</td>
+                     <td>vinay</td>
+                     <td>m4</td>
+                 </tr>
+
+            </tbody>
+        </table>
+
+
+    <!-- Table with Col Span -->
+    <h2> Table with Col Span </h2>
+    <table>
+        <thead>
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th>number</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td colspan="2">narendra</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>srikanth</td>
+            <td>g3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vinay</td>
+            <td>m4</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <!-- Table With Row Span -->
+    <h2> Table With Row Span </h2>
+    <table>
+        <thead style="background-color: lightgray;color: hotpink;">
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th>number</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>narendra</td>
+            <td rowspan="2">g3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>srikanth</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vinay</td>
+            <td>m4</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <!-- Custom Table with CSS -->
+    <h2> Custom Table with CSS </h2>
+    <table>
+        <thead style="background-color: lightgray;color: red;">
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th>number</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>narendra</td>
+            <td>f9</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>srikanth</td>
+            <td>g3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vinay</td>
+            <td>m4</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>

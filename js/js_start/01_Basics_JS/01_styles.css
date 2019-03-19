@@ -1,0 +1,42 @@
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+}
+
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    box-shadow: 0 0 15px black;
+    border-radius: 50px;
+}
+
+div{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    border-radius: 50px;
+}
+section{
+    background-image: url("../img/forest.jpg");
+    border: 6px solid sienna;
+    color: wheat;
+    width: 250px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 22px black;
+}
+section h3{
+    font-size: 22px;
+    text-shadow: 3px 0 3px red;
+    text-decoration: underline;
+}
+section h1:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1.5,1.5);
+}

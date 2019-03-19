@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        form{
+            background-color: lightgreen;
+            padding: 15px;
+            width: 400px;
+            box-shadow: 0 0 15px black;
+            border: 5px solid white;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <form>
+        <input type="radio">
+        <input type="checkbox">
+        <input type="search">
+        <input type="date">
+        <input type="image">
+        <input type="url">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="tel">
+        <input type="time">
+    </form>
+    <br>
+    <form>
+        <label>UserName</label>
+        <input type="text"placeholder="enter username">
+        <br>
+        <label>Password</label>
+        <input type="password"placeholder="enter password">
+        <br>
+        <input type="submit"value="Submit">
+        <input type="reset"value="Reset">
+    </form>
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>UserName</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+                <td>
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <form>
+        <label>Select a Technology</label>
+        <select>
+            <option>--Select--</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>BootStrap</option>
+            <option>jquery</option>
+            <option>ajax</option>
+            <option>angular js</option>
+            <option>angular 7</option>
+        </select>
+    </form>
+    <!--Select box with opt group -->
+    <h2>Select box with opt group</h2>
+
+    <form>
+        <label>Select Technology</label>
+        <select>
+            <optgroup label="languages">
+                <option>.net</option>
+                <option>php</option>
+                <option>java</option>
+                <option>python</option>
+            </optgroup>
+            <optgroup label="script">
+                <option>shell</option>
+                <option>js</option>
+            </optgroup>
+        </select>
+    </form>
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <form>
+        <label>your comments</label>
+        <textarea rows="5" cols="30" maxlength="100"></textarea>
+    </form>
+
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <form>
+        <label>select technology</label>
+        <input list="tech">
+        <datalist id="tech">
+            <option>--Select--</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>BootStrap</option>
+            <option>jquery</option>
+            <option>ajax</option>
+            <option>angular js</option>
+            <option>angular 7</option>
+        </datalist>
+    </form>
+
+
+<br><br><br><br><br>
+</body>
+</html>
