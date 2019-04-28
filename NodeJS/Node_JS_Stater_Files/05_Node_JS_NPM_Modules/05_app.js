@@ -1,3 +1,0 @@
-/*
-    lodash Module
- */
