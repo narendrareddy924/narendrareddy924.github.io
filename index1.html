@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        #myDIV {
+            width: 380px;
+            height: 310px;
+            border: 3px dotted red;
+            animation: mymove 5s infinite;
+            padding: 9px 0px 7px 7px;
+        }
+
+        @keyframes mymove {
+            50% {border: 10px solid blue;}
+        }
+        input[type=text] {
+            width: 80px;
+            -webkit-transition: width .35s ease-in-out;
+            transition: width .35s ease-in-out;
+        }
+        input[type=text]:hover {
+            width: 300px;
+            font-size: 18px;
+            color: orangered;
+        }
+        button{
+            color: white;
+            font-size: 15px;
+            width: 10px 6px;
+            background: green;
+            border: none;   
+            padding: 5px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+  
+    <div id="myDIV">
+        <a href="index2.html" id="two"><img src="img/1.jpg" width="370px" height="270px"></a>
+        <button>Bujji <input type="text" value="click on me.... Happy bday Mounika..." name="search"></button>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        @keyframes toColor {
+            0%    { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+            25%   { -webkit-filter: grayscale(75%); filter: grayscale(75%); }
+            50%   { -webkit-filter: grayscale(50%); filter: grayscale(50%); }
+            75%   { -webkit-filter: grayscale(25%); filter: grayscale(25%); }
+            100%  { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
+        }
+        img.desaturate { 
+            animation: toColor 10s;
+        }
+    </style>
+</head>
+<body>
+  
+    <a href="index4.html"><img src="img/2.jpg" style="width: 300px;" class="desaturate"></a>
+
+    
+</body>
+</html>
