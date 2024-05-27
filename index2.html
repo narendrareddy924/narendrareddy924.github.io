@@ -17,6 +17,14 @@
         img.desaturate { 
             animation: toColor 10s;
         }
+        img:hover {
+            width: 1000px;
+            height: 700px;
+            transition-duration: 1s;
+            cursor: w-resize;
+            transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
     </style>
 </head>
 <body>
